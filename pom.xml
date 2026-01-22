@@ -108,7 +108,6 @@
 </build>
 </profile>
 </profiles>
-<dependencyManagement></dependencyManagement>
 
 
 </project>
