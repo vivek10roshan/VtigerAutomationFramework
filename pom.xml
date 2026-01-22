@@ -91,6 +91,7 @@
 <profile>
 
 <id>PS</id>
+
 <build>
 <plugins>
       <plugin>
@@ -107,7 +108,7 @@
 </build>
 </profile>
 </profiles>
-
+<dependencyManagement></dependencyManagement>
 
 
 </project>
