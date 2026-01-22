@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+  <test thread-count="5" parallel="true" name="Test">
+    <classes>
+      <class name="contact_Test.ToCreateContactWithOrgTest"/>
+      <class name="contact_Test.ToCreateContactTest"/>
+      <class name="organization_Test.ToCreateOrganizationWithTypeTest"/>
+      <class name="organization_Test.ToCreateOrganizationTest"/>
+      <class name="organization_Test.ToCreateOrganizationWithIndustry"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
