@@ -62,9 +62,16 @@
     <scope>compile</scope>
 </dependency>
 
+<dependency>
+    <groupId>org.projectlombok</groupId>
+    <artifactId>lombok</artifactId>
+    <version>1.18.30</version>
+    <scope>provided</scope>
+</dependency>
+
+
 
 </dependencies>
-
 
 <build>
   <plugins>
@@ -75,10 +82,13 @@
       <configuration>
         <source>11</source>
         <target>11</target>
+        <proc>none</proc>
       </configuration>
     </plugin>
   </plugins>
 </build>
+
+
 
   
 <profiles>
